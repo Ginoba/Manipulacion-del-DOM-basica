@@ -36,6 +36,15 @@ h1.classList.remove("azul")
 //document.createElement lo que hace es crear una etiqueta
 //desde js al HTML.
 
-console.log(document.createElement("img"))
+const img = document.createElement("img")
+img.setAttribute("src", "https://i.pinimg.com/originals/39/20/47/392047706e432bf98ef632483dacc710.jpg")
 
+//append es un argumento para colocar 
+
+//El método Elemento.append() inserta un conjunto de objetos 
+//de Nodo u objetos de cadena después del último hijo del 
+//Elemento. Los objetos de cadena se insertan como nodos 
+//de texto equivalentes
+
+pid.append(img)
 
