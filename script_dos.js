@@ -12,4 +12,4 @@ function sumarInputValues (event) {
   event.preventDefault();
   const sumaInputs = console.log(parseInt(input1.value) + parseInt(input2.value));
   pResult.innerText = "Resultado: " + sumaInputs;
-}
+} 
